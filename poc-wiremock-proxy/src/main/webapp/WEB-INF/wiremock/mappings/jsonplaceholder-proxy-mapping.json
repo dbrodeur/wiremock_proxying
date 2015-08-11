@@ -1,0 +1,10 @@
+{
+	"priority": 999,
+    "request": {
+        "method": "GET",
+        "urlPattern": ".*"
+    },
+    "response": {
+        "proxyBaseUrl" : "http://jsonplaceholder.typicode.com"
+    }
+}
