@@ -1,4 +1,4 @@
-package com.teksystems.poc.wiremock.poc.web;
+package com.teksystems.poc.wiremock.web;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

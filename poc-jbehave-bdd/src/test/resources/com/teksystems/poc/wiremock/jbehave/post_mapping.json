@@ -1,0 +1,15 @@
+{
+ "priority":1,
+ "request": {
+  "method": "GET",
+  "url": "/posts/POST_ID"
+ },
+ "response": {
+  "status": 200,
+  "headers": {
+   "Content-Type": "application/json;charset=utf-8",
+   "Cache-Control": "no-cache"
+  },
+  "body":"{\"userId\": 1,\"id\": POST_ID,\"title\": \"POST_TITLE\",\"body\": \"DYNAMIC BODY\"}"
+ }
+}

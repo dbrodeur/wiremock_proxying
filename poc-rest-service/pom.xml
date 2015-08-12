@@ -3,9 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.springframework</groupId>
+	<groupId>com.teksystems.poc.wiremock</groupId>
 	<artifactId>poc-rest-service</artifactId>
-	<version>0.1.0</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<parent>
@@ -15,7 +15,7 @@
 	</parent>
 
 	<properties>
-		<start-class>com.teksystems.poc.wiremock.poc.web.SpringConfig</start-class>
+		<start-class>com.teksystems.poc.wiremock.web.SpringConfig</start-class>
 		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<servlet-api.version>3.1.0</servlet-api.version>
@@ -44,9 +44,14 @@
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
-			<version>3.1.0</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.jbehave</groupId>
+			<artifactId>jbehave-core</artifactId>
+			<version>4.0.3</version>
+		</dependency>
+
 
 	</dependencies>
 
